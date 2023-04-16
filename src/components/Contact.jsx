@@ -28,6 +28,7 @@ function Contact(props) {
             type="text"
             id="text"
             className="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            required
             // name="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -40,6 +41,7 @@ function Contact(props) {
             type="email"
             id="email"
             className="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-40 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            required
             // name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
