@@ -9,7 +9,7 @@
 - git clone https://github.com/dev-chirag-taneja/react-contact-manager.git
 
 # Go to directory
-- cd react-contact-manager
+- cd contact-manager
 
 # Install dependencies
 - npm install
